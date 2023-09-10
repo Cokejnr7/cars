@@ -5,7 +5,7 @@ import CarValue from "./components/CarValue";
 
 const App = () => {
   return (
-    <main>
+    <main className="container is-fluid">
       <CarForm />
       <CarSearch />
       <CarList />
